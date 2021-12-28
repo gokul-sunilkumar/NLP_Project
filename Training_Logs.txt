@@ -1,0 +1,106 @@
+wandb: Currently logged in as: gokul-sunilkumar (use `wandb login --relogin` to force relogin)
+
+
+
+wandb: Tracking run with wandb version 0.12.9 
+wandb: Syncing run generous-frog-25                                                                                                      
+wandb:  View project at https://wandb.ai/gokul-sunilkumar/SpellPatcher                                                                   
+wandb:  View run at https://wandb.ai/gokul-sunilkumar/SpellPatcher/runs/1sl2jl3x                                                         
+wandb: Run data is saved locally in C:\Users\HP\Desktop\GS\spell_patcher\wandb\run-20211227_101414-1sl2jl3x                              
+wandb: Run `wandb offline` to turn off syncing. 
+
+Books loaded.
+
+Sentences cleaned.
+
+There are 361612 words in Anna_Karenina_by_Leo_Tolstoy.rtf.
+There are 113452 words in David_Copperfield_by_Charles_Dickens.rtf.                                                                      
+There are 433993 words in Don_Quixote_by_Miguel_de_Cervantes.rtf.                                                                        
+There are 166996 words in Dracula_by_Bram_Stoker.rtf.                                                                                    
+There are 163109 words in Emma_by_Jane_Austen.rtf.                                                                                       
+There are 78912 words in Frankenstein_by_Mary_Shelley.rtf.                                                                               
+There are 191598 words in Great_Expectations_by_Charles_Dickens.rtf.                                                                     
+There are 105428 words in Grimms_Fairy_Tales_by_The_Brothers_Grimm.rtf.                                                                  
+There are 25395 words in Metamorphosis_by_Franz_Kafka.rtf.                                                                               
+There are 165188 words in Oliver_Twist_by_Charles_Dickens.rtf.                                                                           
+There are 126999 words in Pride_and_Prejudice_by_Jane_Austen.rtf.                                                                        
+There are 110213 words in The_Adventures_of_Sherlock_Holmes_by_Arthur_Conan_Doyle.rtf.                                                   
+There are 96185 words in The_Adventures_of_Tom_Sawyer_by_Mark_Twain.rtf.                                                                 
+There are 480495 words in The_Count_of_Monte_Cristo_by_Alexandre_Dumas.rtf.                                                              
+There are 83657 words in The_Picture_of_Dorian_Gray_by_Oscar_Wilde.rtf.                                                                  
+There are 53211 words in The_Prince_by_Nicolo_Machiavelli.rtf.                                                                           
+There are 194282 words in The_Romance_of_Lust_by_Anonymous.rtf.                                                                          
+There are 9463 words in The_Yellow_Wallpaper_by_Charlotte_Perkins_Gilman.rtf.                                                            
+There are 33464 words in Through_the_Looking_Glass_by_Lewis_Carroll.rtf.                                                                
+
+
+The vocabulary contains 78 characters.                                                                                                   
+[' ', '!', '"', '$', '&', "'", ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<EOS>', '<GO>', '<PAD>', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']          
+There are 132287 sentences.                                                                                                              
+103508 sentences available to train and test our model.   
+                                                                                       
+['One night--it was on the twentieth of March, 1888--I was returning from a journey to a patient for I had now returned to civil practice, when my way led me through Baker Street.']                                                                                             
+
+Number of training sentences: 77631                                                                                                      
+Number of testing and validation sentences: 25877                                                                                        
+Number of validation sentences: 15526                                                                                                    
+Number of testing sentences: 10351                                         
+
+
+
+2021-12-27 10:14:29.172067: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library nvcuda.dll                                                                                                   
+2021-12-27 10:14:29.193741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties:                                                                                                                         
+name: Quadro P5000 major: 6 minor: 1 memoryClockRate(GHz): 1.7335                                                                                                                                                                            
+pciBusID: 0000:21:00.0                                                                                                                                                                                                                       
+2021-12-27 10:14:29.193827: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.                                                                                 
+2021-12-27 10:14:29.194631: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0                                                                                                                           
+2021-12-27 10:14:29.196197: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2                                                                    
+2021-12-27 10:14:29.199352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties:                                                                                                                         
+name: Quadro P5000 major: 6 minor: 1 memoryClockRate(GHz): 1.7335                                                                                                                                                                           
+pciBusID: 0000:21:00.0                                                                                                                                                                                                                       
+2021-12-27 10:14:29.199420: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.                                                                                 
+2021-12-27 10:14:29.200222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0                                                                                                                           
+2021-12-27 10:14:29.707523: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:                                                                                         
+2021-12-27 10:14:29.707600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0                                                                                                                                                  
+2021-12-27 10:14:29.708810: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N                                                                                                                                                  
+2021-12-27 10:14:29.709841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] 
+Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14547 MB memory) -> physical GPU (device: 0, name: Quadro P5000, pci bus id: 0000:21:00.0, compute capability: 6.1)                                                                                                                                                                                                     
+
+
+
+Epoch   1/20 Batch   50/606 - Loss:  0.255, Seconds: 7.67                                                                                
+Epoch   1/20 Batch  100/606 - Loss:  0.182, Seconds: 10.59                                                                               
+Epoch   1/20 Batch  150/606 - Loss:  0.175, Seconds: 14.60                                                                               
+Epoch   1/20 Batch  200/606 - Loss:  0.168, Seconds: 19.02                                                                               
+Testing Loss:  0.160, Seconds: 57.42                                                                                                     
+New Record!                                                                                                                              
+Epoch   1/20 Batch  250/606 - Loss:  0.165, Seconds: 24.86                                                                               
+Epoch   1/20 Batch  300/606 - Loss:  0.165, Seconds: 31.30                                                                               
+Epoch   1/20 Batch  350/606 - Loss:  0.206, Seconds: 38.89                                                                               
+Epoch   1/20 Batch  400/606 - Loss:  0.311, Seconds: 47.66                                                                               
+Testing Loss:  0.354, Seconds: 57.96                                                                                                     
+No Improvement.                                                                                                                          
+Epoch   1/20 Batch  450/606 - Loss:  0.186, Seconds: 58.46                                                                               
+Epoch   1/20 Batch  500/606 - Loss:  0.170, Seconds: 72.48                                                                               
+Epoch   1/20 Batch  550/606 - Loss:  0.167, Seconds: 92.02                                                                               
+Epoch   1/20 Batch  600/606 - Loss:  0.167, Seconds: 118.29                                                                              
+Testing Loss:  0.521, Seconds: 58.42                                                                                                     
+No Improvement.                                                                                                                          
+Epoch   2/20 Batch   50/606 - Loss:  0.236, Seconds: 6.56                                                                                
+Epoch   2/20 Batch  100/606 - Loss:  0.136, Seconds: 10.65                                                                               
+Epoch   2/20 Batch  150/606 - Loss:  0.137, Seconds: 14.70                                                                               
+Epoch   2/20 Batch  200/606 - Loss:  0.136, Seconds: 19.10                                                                               
+Testing Loss:  0.376, Seconds: 58.16                                                                                                     
+No Improvement.                                                                                                                          
+Epoch   2/20 Batch  250/606 - Loss:  0.129, Seconds: 24.45                                                                               
+Epoch   2/20 Batch  300/606 - Loss:  0.130, Seconds: 30.75                                                                               
+Epoch   2/20 Batch  350/606 - Loss:  0.129, Seconds: 38.21                                                                               
+Epoch   2/20 Batch  400/606 - Loss:  0.123, Seconds: 47.07                                                                               
+Testing Loss:  0.541, Seconds: 58.81                                                                                                     
+No Improvement.                                                                                                                          
+Epoch   2/20 Batch  450/606 - Loss:  0.125, Seconds: 58.01                                                                               
+Epoch   2/20 Batch  500/606 - Loss:  0.124, Seconds: 72.49                                                                               
+Epoch   2/20 Batch  550/606 - Loss:  0.125, Seconds: 89.98                                                                               
+Epoch   2/20 Batch  600/606 - Loss:  0.128, Seconds: 117.62                                                                              
+Testing Loss:  0.700, Seconds: 59.46                                                                                                     
+No Improvement.                     
